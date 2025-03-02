@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",        // Output compiled JS files to "dist" folder
+    "module": "es6",           // Use ES6 modules
+    "target": "es6",           // Compile for modern browsers
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.ts"],  // Include all TS files inside "src" folder
+  "exclude": ["node_modules"]
+}
